@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>よくある質問（Q&A） - アジングリグ在庫管理</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><img src="image/app_icon.png" alt="アジングリグ在庫管理" style="width:44px;height:44px;border-radius:10px;display:block;"></div>
+  <div>
+    <div class="site-title">アジングリグ在庫管理</div>
+    <div class="site-subtitle">公式サポートページ</div>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html">ホーム</a>
+  <a href="manual.html">使い方マニュアル</a>
+  <a href="qa.html" class="active">Q&amp;A</a>
+  <a href="terms.html">利用規約</a>
+  <a href="privacy.html">プライバシーポリシー</a>
+</nav>
+
+<div class="container">
+  <h1>💬 よくある質問（Q&amp;A）</h1>
+
+  <!-- アイテムの登録 -->
+  <div class="card">
+    <h2>アイテムの登録・編集</h2>
+
+    <div class="qa-item">
+      <p class="q">プリセットにない商品は登録できますか？</p>
+      <p class="a">はい。メーカー名・商品名を直接テキスト入力することで、プリセット以外の商品も自由に登録できます。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">同じ商品で重さやカラーが違うものを別々に管理したいです。</p>
+      <p class="a">それぞれ別のアイテムとして登録してください。サイズ・カラー・重さを変えて同じ商品名で複数登録できます。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">「保存」ボタンがグレーアウトして押せません。</p>
+      <p class="a">商品名などの必須項目が未入力の場合、または内容に変更がない場合に保存ボタンが無効になります。何か値を変更すると有効になります。新規登録の場合は商品名を入力してください。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">遠投リグの編集画面でサブタイプが「選択してください」になっています。</p>
+      <p class="a">サブタイプのドロップダウンをタップして選択してください。保存ボタンが有効になります。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">写真を登録したのに保存ボタンが有効になりません。</p>
+      <p class="a">写真選択後に他の入力項目（在庫数など）も変更してみてください。または一度写真選択をキャンセルしてから再度選択すると保存ボタンが有効になる場合があります。</p>
+    </div>
+  </div>
+
+  <!-- 在庫管理 -->
+  <div class="card">
+    <h2>在庫の管理</h2>
+
+    <div class="qa-item">
+      <p class="q">在庫を直接数字で入力できますか？</p>
+      <p class="a">直接入力はできません。在庫は「追加数」（購入時に加算）または「使用を記録」（使用時に減算）で管理します。細かい調整はステッパーで行えます。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">使用した数を記録するにはどうすればいいですか？</p>
+      <p class="a">アイテムの詳細画面を開き、左上の「使用を記録」ボタン（マイナスアイコン）をタップします。シートが表示されますので、使用数をステッパーで入力して「記録する」をタップしてください。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">在庫が0になったアイテムは消えますか？</p>
+      <p class="a">消えません。在庫0のアイテムはリストの末尾に薄く表示されます。削除したい場合は左スワイプの削除ボタンを使用してください。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">ホーム画面の件数表示が実際の在庫数と違います。</p>
+      <p class="a">ホーム画面のセクションタイトルに表示される件数は、在庫のある（stock &gt; 0）アイテムの数です。在庫0のアイテムは件数に含まれません。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">アラート閾値を設定したのに赤くなりません。</p>
+      <p class="a">アラートは「在庫数 ≤ アラート閾値」のときに発動します。アラート閾値が0の場合はアラートは発生しません。閾値を1以上に設定してください。</p>
+    </div>
+  </div>
+
+  <!-- 表示・操作 -->
+  <div class="card">
+    <h2>表示・操作</h2>
+
+    <div class="qa-item">
+      <p class="q">検索してもヒットしません。</p>
+      <p class="a">各カテゴリの検索対象は「商品名・メーカー名」です。ワームはカラーも対象です。フックはサイズも対象です。部分一致で検索されます。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">ソート順はどうやって変えますか？</p>
+      <p class="a">各カテゴリ画面の右上にある並び替えアイコン（上下矢印）をタップするとメニューが表示されます。「在庫少ない順」「メーカー順」「登録日順」から選択できます。遠投リグは「重さ順」も選べます。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">プリセットのアイテムが一覧に大量に表示されて邪魔です。</p>
+      <p class="a">プリセットアイテム（初回自動登録のカタログデータ）は在庫一覧には表示されません。一覧に表示されるのはユーザーが登録したアイテムのみです。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">スワイプで誤って削除してしまいました。</p>
+      <p class="a">削除したデータは復元できません。誤操作を防ぐため、削除スワイプは左スワイプのみ（ホーム画面には削除スワイプなし）となっています。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">写真のサムネイルが表示されません。</p>
+      <p class="a">写真が登録されていない場合はサムネイルは表示されません。編集画面から「写真を選択」で写真を登録すると表示されます。設定アプリでフォトライブラリへのアクセスが許可されているか確認してください。</p>
+    </div>
+  </div>
+
+  <!-- カテゴリ別 -->
+  <div class="card">
+    <h2>カテゴリ別の疑問</h2>
+
+    <div class="qa-item">
+      <p class="q">遠投リグのサブタイプとは何ですか？</p>
+      <p class="a">フロートなら「F（フローティング）」「D（シンキング）」、TGシンカーなら「スリム」「タル型」など、同じ商品内のバリエーションを区別するための項目です。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">ラインとリーダーは別々に管理できますか？</p>
+      <p class="a">はい。ラインタブ内でセグメントを切り替えることで、ラインとリーダーをそれぞれ独立して管理できます。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">フックとジグヘッドのフックは別に管理するのですか？</p>
+      <p class="a">はい。「フック」はフロートリグやキャロ用の単体フック、「ジグヘッド」はヘッドとフックが一体になったものです。それぞれ別カテゴリで管理してください。</p>
+    </div>
+  </div>
+
+  <!-- データ・設定 -->
+  <div class="card">
+    <h2>データ・設定</h2>
+
+    <div class="qa-item">
+      <p class="q">全データを削除するにはどうすればいいですか？</p>
+      <p class="a">設定タブの「データ一括削除」からカテゴリを選んで削除できます。削除は取り消せませんのでご注意ください。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">機種変更時にデータを引き継げますか？</p>
+      <p class="a">現バージョンではデータエクスポート・インポート機能は搭載していません。iCloudバックアップを利用した端末移行をお試しください。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">アプリが突然終了します。</p>
+      <p class="a">端末を再起動してから再度お試しください。改善しない場合はお問い合わせください。</p>
+    </div>
+
+    <div class="qa-item">
+      <p class="q">お問い合わせ先はどこですか？</p>
+      <p class="a">下記のメールアドレスまでご連絡ください。<br>
+        📧 <a href="mailto:bigmoss@gmail.com" style="color:#0d9488; font-weight:700;">bigmoss@gmail.com</a>
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 StudioBB / アジングリグ在庫管理 &nbsp;|&nbsp; <a href="privacy.html">プライバシーポリシー</a> &nbsp;|&nbsp; <a href="terms.html">利用規約</a></p>
+</footer>
+
+</body>
+</html>
